@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+}
+
+header h2 {
+    margin: 10px 0 5px;
+    font-size: 170%;
+    color: var(--global-color-1);
+    text-indent: 30px;
+}
+
+header h3 {
+    margin: 0;
+    font-size: 130%;
+    font-style: italic;
+    text-indent: 30px;
+}
+
+.shadow {
+    text-shadow: 2px 2px var(--global-color-1);
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    font-style: italic;
+}
+
+blockquote {
+    font-style: italic;
+    color: #666;
+    border-left: 4px solid #ccc;
+    margin: 20px 0;
+    padding-left: 10px;
+}
+
+footer p {
+    text-align: center;
+}
